@@ -1,5 +1,5 @@
 # Wireframes
-**OPTION 3**
+**OPTION 1**
 From the images above, chose a wireframe to guide your design for today's project. Remember that your final project must include:
 
 - [ ]  A navigation bar with `About`, `Projects`, and `Contact` pages
