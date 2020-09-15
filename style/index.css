@@ -383,5 +383,6 @@ img {
     align-items: center;
 }
 .pictures {
-
+ width: 250px;
+ height: auto;
 }
