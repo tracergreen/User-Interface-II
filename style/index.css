@@ -356,18 +356,18 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-size: 36px;
   background-color: #957E85;
+  color: #7e9583;
 }
 
 .header {
-  background-color: #262439;
-  height: 15em;
+  background-color: #3C3A68;
+  height: 14rem;
 }
 
 h1 {    
   font-family: 'Lobster', cursive;
-  font-size: 96px;
+  font-size: 78px;
   text-align: left;
-  background-color: #48425D;
   margin: 2rem;
 }
 
@@ -380,25 +380,47 @@ h1 {
   border: 1px white solid;
   width: 5em;
   text-align: center;
-  background-color: #957E85;
+  background-color: #7e9583;
   color: white;
   margin: auto 0;
+  font-size: 24px;
+}
+
+h3 {
+  border: 1px white solid;
+  width: fit-content;
+  text-align: center;
+  background-color: #7e9583;
+  color: white;
+  margin: auto 0; 
+  padding: 8px;
+}
+
+.intro {
+  display: inline-flex;
+  flex-flow: row nowrap;
+  margin-left: 1em;
+}
+
+.MainImg {
+  display: flex;
+  justify-content: absolute;
+}
+
+.aboutMe {
+  text-align: left;
+  width: 65%;
+  color: blanchedalmond;
+  margin: 2%;
+  font-size: 20px;
 }
 
 h2 {
-  font-size: 48px;
+  font-size: 36px;
 }
 
 nav {
   display: flex;
-}
-
-img {
-  display: inline-flex;
-  justify-content: center;
-  width: 200px;
-  height: auto;
-  align-items: center;
 }
 
 .pictures {
@@ -406,8 +428,28 @@ img {
   width: 100%;
   height: auto;
   flex-flow: row wrap;
-  background-color: white;
 }
 .pictures img {
-  margin: 7%;
+  margin: 10%;
+}
+
+.pictures div {
+  text-align: left;
+  color: white;
+  background-color: cornflowerblue;
+  margin: 1em;
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  flex: 1;
+}
+footer {
+  display: inline-block;
+  background-color: #3C3A68;
+  text-align: center;
+  width: 100%;
+}
+
+button {
+  background-color: blanchedalmond;
 }
