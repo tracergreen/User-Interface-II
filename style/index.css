@@ -443,6 +443,12 @@ footer {
   margin-bottom: 2%;
 }
 
+footer a img {
+  width: 6%;
+  height: auto;
+  margin-top: 1em;
+}
+
 button {
   background-color: blanchedalmond;
 }
