@@ -351,17 +351,20 @@
 
 /* font-family: 'Lobster', cursive;
 font-family: 'Montserrat', sans-serif; */
+html {
+  font-size: 62.5%;
+}
 
 body {
   font-family: 'Montserrat', sans-serif;
-  font-size: 36px;
+  font-size: 40px;
   background-color: #957E85;
   color: #7e9583;
 }
 
 .header {
   background-color: #3C3A68;
-  height: 14rem;
+  height: 7em;
 }
 
 h1 {    
