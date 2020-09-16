@@ -376,6 +376,10 @@ h1 {
   display: inline-flex;
   list-style-type: none;
 }
+.nav li:hover {
+  background-color: #7e9583;
+  border: 2px brown solid;
+}
 
 button h3 {
   width: fit-content;
@@ -388,12 +392,12 @@ button h3 {
 .intro {
   display: inline-flex;
   flex-flow: row nowrap;
-  margin-left: 1em;
+  margin: 1em 1em 0 1em;
   border: 5px brown solid;
   box-shadow: 2px 2px 4px black;
 }
 
-.MainImg {
+.mainImg {
   display: flex;
   justify-content: absolute;
 }
